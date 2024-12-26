@@ -13,6 +13,10 @@ cli tool with FreeDesktop Trash specification support.
 
 [ desktop file ](actions/move-to-trash.desktop)
 
+![Custom actions menu](./images/menu-trash.png "Custom actions")
+
+![File moved to trash](./images/moved-trash.png "Trashed file")
+
 ---
 ## Scan with [ ClamAV ](https://www.clamav.net/)
 I download a lot of files (Videos, music, executables...), and share them with my family, so sometimes I get a little worried if I downloaded some infected files, and with the (`ClamTk`)[https://gitlab.com/dave_m/clamtk/-/issues/144] project put to rest by the developer, I need a way to quickly scan some files without the need to open a terminal and the run the scan command.
@@ -24,6 +28,11 @@ or `notify-send` to be installed to show messages.
 [ desktop file ](actions/scan-with-clamscan.desktop)
 
 [ script ](scripts/scan-clamav.sh)
+
+![Custom scan action](./images/scan-menu.png "Scan action")
+
+![kdialog resulsts](./images/scaned.png "Scaned")
+
 ___
 Installation
 
