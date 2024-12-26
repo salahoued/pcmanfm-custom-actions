@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Action
+Name=Scan with ClamAV
+Name[fr]=Scanner avec ClamAV
+Name[ar]=امسح بواسطة ClamAV
+
+Icon=clamav
+
+Profiles=profile-zero;
+
+[X-Action-Profile profile-zero]
+MimeTypes=application/*;audio/*;font/*;image/*;inode/*;message/*;model/*;multipart/*;text/*;video/*;x-content/*;
+Exec=scan-clamav.sh %f
+Name=Default profile

@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Action
+Name=Move to Trash
+Name[fr]=Déplacer à la Corbeille
+Name[ar]= أرسل إلى القمامة
+
+Icon=emblem-remove
+
+Profiles=profile-zero;
+
+[X-Action-Profile profile-zero]
+MimeTypes=text/*;audio/*;image/*;application/*;video/*;
+Exec=trash put %f
+Name=Default profile
