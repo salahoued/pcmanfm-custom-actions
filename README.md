@@ -20,7 +20,7 @@ cli tool with FreeDesktop Trash specification support.
 
 ---
 ## Scan with [ ClamAV ](https://www.clamav.net/)
-I download a lot of files (Videos, music, executables...), and share them with my family, so sometimes I get a little worried if I downloaded some infected files, and with the (`ClamTk`)[https://gitlab.com/dave_m/clamtk/-/issues/144] project put to 'rest' by the developer, I need a way to quickly scan some files without the need to open a terminal and the run the scan command.
+I download a lot of files (Videos, music, executables...), and share them with my family, so sometimes I get a little worried if I downloaded some infected files, and with the [`ClamTk`](https://gitlab.com/dave_m/clamtk/-/issues/144) project put to 'rest' by the developer, I need a way to quickly scan some files without the need to open a terminal and the run the scan command.
 Hince this custom action that makes use of `ClamAV` antivirus to run some tests.
 
 Aside from the `ClamAV` dependency, this action needs `kdialog`
